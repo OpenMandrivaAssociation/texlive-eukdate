@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eukdate
+# catalog-date 2009-03-17 21:46:26 +0100
+# catalog-license lppl
+# catalog-version 1.04
 Name:		texlive-eukdate
 Version:	1.04
 Release:	1
@@ -46,6 +52,7 @@ class, "June 26, 2008", the 'US format'.
 #- source
 %doc %{_texmfdistdir}/source/latex/eukdate/eukdate.dtx
 %doc %{_texmfdistdir}/source/latex/eukdate/eukdate.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ class, "June 26, 2008", the 'US format'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
