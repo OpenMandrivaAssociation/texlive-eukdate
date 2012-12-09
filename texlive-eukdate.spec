@@ -52,3 +52,17 @@ class, "June 26, 2008", the 'US format'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.04-2
++ Revision: 751660
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.04-1
++ Revision: 718383
+- texlive-eukdate
+- texlive-eukdate
+- texlive-eukdate
+- texlive-eukdate
+
