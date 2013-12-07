@@ -6,7 +6,7 @@
 # catalog-version 1.04
 Name:		texlive-eukdate
 Version:	1.04
-Release:	4
+Release:	5
 Summary:	UK format dates, with weekday
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eukdate
