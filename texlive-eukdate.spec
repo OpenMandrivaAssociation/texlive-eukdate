@@ -1,6 +1,6 @@
 Name:		texlive-eukdate
 Version:	15878
-Release:	1
+Release:	2
 Summary:	UK format dates, with weekday
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eukdate
