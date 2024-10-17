@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	UK format dates, with weekday
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eukdate
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eukdate
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eukdate.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eukdate.doc.r%{version}.tar.xz
